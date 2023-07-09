@@ -36,9 +36,14 @@ print(type(())); #Expected output <class 'tuple'>
 
 # Diccionarios
 print({
-    "name": "Ryan", #key-value
+    "name": "Ryan", #key:value
     "lastname": "Reynolds",
     "nickname": "RR"
 });
 
 print(type({})); #Expected output <class 'dict'>
+
+# Sin tipo
+print(None);
+
+print(type(None)); #Expected output <class 'NoneType'>
